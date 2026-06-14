@@ -13,8 +13,6 @@ const lineLength = function (string, maxLength) {
   }
 };
 
-console.log(lineLength('Привет', 10));
-
 const Palin = function (string) {
   let empty = '';
 
@@ -25,7 +23,6 @@ const Palin = function (string) {
   return empty === string;
 };
 
-console.log(Palin('казак'));
 
 const Kolo = function (string) {
   let a = '';
@@ -44,5 +41,3 @@ const Kolo = function (string) {
   }
 
 }
-
-console.log(Kolo('казак10rjhj0.66'));
