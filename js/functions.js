@@ -34,5 +34,4 @@ const Kolo = function (string) {
   } else {
     return +a;
   }
-
-}
+};
