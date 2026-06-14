@@ -1,10 +1,5 @@
-// const lineLength = function (string, maxLength) {
-//   return string.length <= maxLength;
-// };
-
-// console.log(lineLength('Привет', 10));
-// lineLength('Привет', 10);
-
+/* eslint-disable no-unused-vars */
+// eslint-disable-next-line no-unused-vars
 const lineLength = function (string, maxLength) {
   if (string.length <= maxLength) {
     return true;
