@@ -66,4 +66,3 @@ const photoDescription = (element, index) => {
 };
 
 Array.from({length: ALL_PHOTOS}, photoDescription);
-
