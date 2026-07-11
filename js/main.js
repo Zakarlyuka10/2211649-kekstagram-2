@@ -65,6 +65,5 @@ const photoDescription = (element, index) => {
   };
 };
 
-const morePhotos = Array.from({length: ALL_PHOTOS}, photoDescription);
+Array.from({length: ALL_PHOTOS}, photoDescription);
 
-console.log(morePhotos);
