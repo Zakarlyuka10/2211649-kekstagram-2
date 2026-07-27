@@ -57,3 +57,12 @@ const isMeetingInWorkingHours = (workStart, workEnd, meetingStart, meetingDurati
 
   return isStartedOnTime && isFinishedOnTime;
 };
+
+
+const createMinutes = function (timeStr) {
+  const [hours, minutes] = timeStr.split(':').map(Number);
+
+  const totalMinutes = hours * 60 + minutes;
+  return totalMinutes;
+};
+

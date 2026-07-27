@@ -1,4 +1,7 @@
 
+import './picture.js';
+
+
 import { ALL_PHOTOS } from './constants.js';
 import { photoDescription } from './data.js';
 

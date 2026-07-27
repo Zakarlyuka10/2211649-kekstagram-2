@@ -1,5 +1,5 @@
 import { getRandomInteger, getRandomArrayElement, commentIdsPool } from './util.js';
-import { DESCRIPTION, NAMES, MESSAGE } from './constants.js';
+import { DESCRIPTION, NAMES, MESSAGE, ALL_PHOTOS } from './constants.js';
 
 const createComment = () => ({
   id: commentIdsPool.pop(),
@@ -22,4 +22,6 @@ const photoDescription = (element, index) => {
   };
 };
 
-export { photoDescription };
+const photosData = Array.from({ length: ALL_PHOTOS }, photoDescription);
+
+export { photosData };
