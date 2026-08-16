@@ -34,4 +34,3 @@ photosData.forEach((photo) => {
 });
 
 picturesContainer.appendChild(fragment);
-
