@@ -1,5 +1,7 @@
 import { photosData } from './data.js';
 
+import { openBigPicture } from './full-photo.js';
+
 const picturesContainer = document.querySelector('.pictures');
 const templateFragment = document.querySelector('#picture').content;
 const template = templateFragment.querySelector('.picture');
@@ -24,6 +26,10 @@ photosData.forEach((photo) => {
   if (commentsCount) {
     commentsCount.textContent = photo.comments.length;
   }
+
+  element.addEventListener('click', () => {
+    openBigPicture(photo);
+  });
 
   fragment.appendChild(element);
 });
