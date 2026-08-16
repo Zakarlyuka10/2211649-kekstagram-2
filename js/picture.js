@@ -5,6 +5,8 @@ import { openBigPicture } from './full-photo.js';
 
 
 
+import { openBigPicture } from './full-photo.js';
+
 const picturesContainer = document.querySelector('.pictures');
 const templateFragment = document.querySelector('#picture').content;
 const template = templateFragment.querySelector('.picture');
