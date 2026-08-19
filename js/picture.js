@@ -1,4 +1,5 @@
 import { photosData } from './data.js';
+import { openBigPicture } from './full-photo.js';
 
 import { openBigPicture } from './full-photo.js';
 
